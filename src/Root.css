@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poiret+One&display=swap");
+
+.ff_poiret {
+  font-family: "Poiret One";
+}
+.ff_montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+:root {
+  /* font-weight */
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  /* font-size */
+  --fs-xl: 11px;
+  --fs-xxl: 11px;
+  --fs-2xl: 13px;
+  --fs-2xxl: 20px;
+  --fs-6xl: 24px;
+  --fs-10xl: 23px;
+  /* text-color */
+  --text-light-white: #fcfffe;
+  --text-dark-white: #cacfce;
+  --text-green: #0cd869;
+  --text-gray: #bbc0bf;
+  --text-dark-gray: #b1b8b7;
+  --text-red: #ea2663;
+  /* bg-color */
+  --bg-light-white: #fcfffe;
+  --bg-green-3f: #004f3f;
+  --bg-red: #ea2663;
+  --bg-dark-green-16: #051b16;
+  --bg-dark-green-36: #133f36;
+  --bg-dark-0e: #01140e;
+  --bg-dark-17: #022817;
+  --bg-green-25: #055025;
+  --bg-full-dark: #010e0b;
+}
+/* font-weight */
+.fw_regular {
+  font-weight: var(--fw-regular);
+}
+.fw_semibold {
+  font-weight: var(--fw-semibold);
+}
+/* font-size */
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+.fs_2xxl {
+  font-size: var(--fs-2xxl);
+}
+.fs_6xl {
+  font-size: var(--fs-6xl);
+}
+.fs_10xl {
+  font-size: var(--fs-10xl);
+}
+/* text-color */
+.text_dark_white {
+  color: var(--text-dark-white);
+}
+.text_dark_gray {
+  color: var(--text-dark-gray);
+}
+.text_light_white {
+  color: var(--text-light-white);
+}
+.text_green {
+  color: var(--text-green);
+}
+.text_gray {
+  color: var(--text-gray);
+}
+.text_red {
+  color: var(--text-red);
+}
+/* bg-color */
+.bg_light_white {
+  background-color: var(--bg-light-white);
+}
+.bg_green_3f {
+  background-color: var(--bg-green-3f);
+}
+.bg_red {
+  background-color: var(--bg-red);
+}
+.bg_dark_green_16 {
+  background-color: var(--bg-dark-green-16);
+}
+.bg_dark_green_36 {
+  background-color: var(--bg-dark-green-36);
+}
+.bg_dark_0e {
+  background-color: var(--bg-dark-0e);
+}
+.bg_dark_17 {
+  background-color: var(--bg-dark-17);
+}
+.bg_green_25 {
+  background-color: var(--bg-green-25);
+}
+.bg_full_dark {
+  background-color: var(--bg-full-dark);
+}
+/* opacity */
+.opacity_07 {
+  opacity: 0.7;
+}
+.opacity_08 {
+  opacity: 0.8;
+}
+.opacity_03 {
+  opacity: 0.3;
+}
+@media (min-width: 420px) {
+  :root {
+    --fs-xl: 14px;
+    --fs-xxl: 13px;
+    --fs-2xl: 17px;
+    --fs-2xxl: 24px;
+    --fs-6xl: 33px;
+    --fs-10xl: 33px;
+  }
+}
+@media (min-width: 450px) {
+  :root {
+    --fs-xl: 14px;
+    --fs-xxl: 13px;
+    --fs-2xl: 17px;
+    --fs-2xxl: 24px;
+    --fs-6xl: 35px;
+    --fs-10xl: 36px;
+  }
+}
+@media (min-width: 576px) {
+  :root {
+    --fs-xl: 14px;
+    --fs-xxl: 12px;
+    --fs-2xl: 17px;
+    --fs-2xxl: 16px;
+    --fs-6xl: 42px;
+    --fs-10xl: 44px;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --fs-xl: 14px;
+    --fs-xxl: 12px;
+    --fs-2xl: 18px;
+    --fs-2xxl: 24px;
+    --fs-6xl: 37px;
+    --fs-10xl: 55px;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    --fs-xl: 14px;
+    --fs-xxl: 16px;
+    --fs-2xl: 17px;
+    --fs-2xxl: 22px;
+    --fs-6xl: 50px;
+    --fs-10xl: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    --fs-xl: 14px;
+    --fs-xxl: 16px;
+    --fs-2xl: 20px;
+    --fs-2xxl: 24px;
+    --fs-6xl: 60px;
+    --fs-10xl: 83px;
+  }
+}
+@media (min-width: 1400px) {
+  :root {
+    --fs-xl: 14px;
+    --fs-xxl: 16px;
+    --fs-2xl: 20px;
+    --fs-2xxl: 24px;
+    --fs-6xl: 68px;
+    --fs-10xl: 100px;
+  }
+}
